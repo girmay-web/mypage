@@ -1,0 +1,138 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: lightslategrey;
+	color: #fff;
+}
+.navbars{
+	background-color: gray;
+	position: sticky;
+	top: 0;
+
+}
+.navbars ul{
+	/*background-color: lightgrey;*/
+
+}
+.navbars ul li{
+	display: block;
+	float: left;
+	
+	padding: 20px;
+
+	
+}
+.navbars ul li a{
+	background-color: grey;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.navbars ul li:hover  a{
+	background-color: red;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: green;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.clr{
+	clear: both;
+}
+.section-1{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	border: red solid 1px;
+	gap: 20px;
+}
+.sec-1{
+	border: red solid 1px;
+	grid-row: span 2;
+	background-image: url(../images/animationLeft.gif);
+
+}
+.sec-2{
+	border: red solid 1px;
+	background-image: url(../images/accessdb.jfif);
+
+}
+.sec-3{
+	border: red solid 1px;
+	background-image: url(../images/cisco.jfif);
+
+}
+.sec-4{
+	border: red solid 1px;
+	background-image: url(../images/excel.jfif);
+
+}
+.sec-5{
+	border: red solid 1px;
+	background-image: url(../images/word-powerpoint.jfif);
+
+}
+.section-2{
+	display: grid;
+	border: 1px yellow solid;
+	grid-template-columns:1fr 2.5fr ;
+	grid-template-areas: 
+	"header header"
+	"sidebars main-body"
+	"sidebars footer";
+}
+.header{
+	grid-area: header;
+	border: 1px yellow solid;
+	background-image: url(../images/pic1.jpg);
+}
+.header h3{
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+
+}
+.sidebars{
+	grid-area: sidebars;
+	border: 1px yellow solid;
+	background-image: url(../images/pic1.jpg);
+}
+.sidebars h3{
+	font-weight: bold;
+	text-align: center;
+
+}
+.sidebars ul li{
+	font-size: 20px;
+	list-style: none;
+}
+.sidebars ul li a{
+	text-decoration: none;
+	
+}
+.main-body{
+	grid-area: main-body;
+	border: 1px yellow solid;
+	background-image: url(../images/showcase.jpg);
+}
+
+.footer{
+	grid-area: footer;
+	border: 1px yellow solid;
+	text-align: center;
+}
+.section-3{
+	background-image: url(../images/animationCoverBG.gif);
+	height: 300px;
+	text-align: center;
+
+}
+.section-4{
+
+}
+.section-5{
+	background-color: grey;
+}
