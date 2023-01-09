@@ -4,6 +4,12 @@ body{
 	background-color: lightslategrey;
 	color: #fff;
 }
+@media screen and (max-width: 800px)	{
+	.navbars{
+		display: none;
+	}
+
+	}
 .navbars{
 	background-color: gray;
 	position: sticky;
@@ -43,11 +49,17 @@ body{
 .clr{
 	clear: both;
 }
+
+@media screen and (min-width: 800px)	{
+
+
+
 .section-1{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	border: red solid 1px;
 	gap: 20px;
+}
 }
 .sec-1{
 	border: red solid 1px;
@@ -75,6 +87,8 @@ body{
 	background-image: url(../images/word-powerpoint.jfif);
 
 }
+
+@media screen and (min-width: 800px)	{
 .section-2{
 	display: grid;
 	border: 1px yellow solid;
@@ -83,6 +97,7 @@ body{
 	"header header"
 	"sidebars main-body"
 	"sidebars footer";
+}
 }
 .header{
 	grid-area: header;
@@ -124,14 +139,20 @@ body{
 	border: 1px yellow solid;
 	text-align: center;
 }
+
+@media screen and (min-width: 800px)	{
 .section-3{
 	background-image: url(../images/animationCoverBG.gif);
 	height: 300px;
 	text-align: center;
 
 }
+}
+
+@media screen and (min-width: 800px)	{
 .section-4{
 
+}
 }
 .section-5{
 	background-color: grey;
